@@ -1,0 +1,1 @@
+/Users/boczkaji/.p10k.zsh

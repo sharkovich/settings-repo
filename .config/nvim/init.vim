@@ -1,0 +1,1 @@
+/Users/boczkaji/.config/nvim/init.vim
