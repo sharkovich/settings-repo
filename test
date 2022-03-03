@@ -1,0 +1,11 @@
+$PWD/$PWDconfig/alacritty/alacritty.yml
+$PWD/$PWDconfig/gitui/theme.ron
+$PWD/$PWDconfig/micro/bindings.json
+$PWD/$PWDconfig/micro/settings.json
+$PWD/$PWDconfig/neofetch/config.conf
+$PWD/$PWDconfig/nvim/init.vim
+$PWD/$PWDconfig/keepassxc/keepassxc.ini
+$PWD/$PWDp10k.zsh
+$PWD/$PWDtmux.conf
+$PWD/$PWDzshrc
+$PWD/test
