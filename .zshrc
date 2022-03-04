@@ -77,7 +77,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(alias-finder common-aliases git npm node z nvm)
+plugins=(alias-finder common-aliases git npm node z nvm brew macos)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -113,9 +113,9 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-#source /usr/share/zsh/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+#source /usr/local/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
 if type rg &> /dev/null; then
 	export FZF_DEFAULT_COMMAND='rg --files'
